@@ -1,0 +1,11 @@
+[package]
+name = "battleship_proof_program"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+sp1-zkvm = "4.0.0"
+alloy-sol-types = "0.7.7"
+battleship_proof_lib = { path = "../lib" }
+serde = { version = "1.0", features = ["derive"] }
+hex = "0.4.3"
